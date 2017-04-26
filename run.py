@@ -1,0 +1,2 @@
+def go(chessboard, n):
+
