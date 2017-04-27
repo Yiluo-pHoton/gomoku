@@ -8,9 +8,9 @@ public class filegenerator {
         PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("start.txt")));
         for (int i = 0; i < 100; i++){
 			if (i < 10)
-			    out = new PrintWriter(new BufferedWriter(new FileWriter("pela5.0_pela60.0_00" + i + ".txt")));
+			    out = new PrintWriter(new BufferedWriter(new FileWriter("pela60.0_pela5.0_00" + i + ".txt")));
             else
-				out = new PrintWriter(new BufferedWriter(new FileWriter("pela5.0_pela60.0_0" + i + ".txt")));
+				out = new PrintWriter(new BufferedWriter(new FileWriter("pela60.0_pela5.0_0" + i + ".txt")));
         }
 		out.close();
 	}
